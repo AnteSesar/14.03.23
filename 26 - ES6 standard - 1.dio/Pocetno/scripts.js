@@ -12,4 +12,4 @@ var wait = new Promise((resolve, reject) => {
 	return setTimeout(reject, 0);
 })
 .then(() => console.log("Y"))
-.catch(() => console.log("N"));sdf
+.catch(() => console.log("N"));
